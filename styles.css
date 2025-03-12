@@ -1,0 +1,57 @@
+.gradient-background {
+    background: linear-gradient(88deg, #0077B6 18.96%, #CAF0F8 100%);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.about-me-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.project-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.primary-button {
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 0.625rem;
+    background: #03045E;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+}
+
+.primary-button:hover {
+    background: #03055eb2;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px){
+    .about-me-text {
+        font-size: 1rem;
+        font-weight: 400;
+    }      
+}
